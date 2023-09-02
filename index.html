@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Damanpreet Singh - Portfolio</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="./script.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div id="home">
+      <div class="profile_name">
+        Damanpreet Singh
+        <div class="contact_info">
+          <a href="mailto:damaneemail.com">damaneemail.com</a>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          +123-343-9999
+        </div>
+      </div>
+      <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="h301399155_219890873698339_7536334551470003529_n.jpg" alt="Profile Image" class="profile_image"/>
+    </div>
+
+    <div>
+      <h1>
+        Hi, I'm Damanpreet! <img src="301399155_219890873698339_7536334551470003529_n.jpg" alt="Alternate Text" width="60px"/>
+      </h1>
+      <p>
+        I am a full stack developer with 1 year of experience in both application and presentation layers.
+        I have worked on applications and microservices deployed on IBM Cloud. 
+        I am an avid user of AWS.
+      </p>
+    </div>
+  </section>
+
+  
+<section id="skills">
+  <h2>Skills</h2>
+  <div style="clear:both;"></div>
+  <div class="all_skills">
+    <div class="skill">
+      <img src="html_finalprojimages/html5.png" alt="HTML5 Icon"/>
+      <h6>HTML</h6>
+      <p>2 years experience</p>
+    </div>
+    <div class="skill">
+      <img src="html_finalprojimages/js.jpeg" alt="JavaScript Icon"/>
+      <h6>JavaScript</h6>
+      <p>3 years experience</p>
+    </div>
+    <!-- Add more skills here -->
+    <div class="skill">
+      <img src="html_finalprojimages/java.png" alt="Java Icon"/>
+      <h6>Java</h6>
+      <p>2 years experience</p>
+    </div>
+    <div class="skill">
+      <img src="html_finalprojimages/css.png" alt="CSS Icon"/>
+      <h6>CSS</h6>
+      <p>2 years experience</p>
+    </div>
+    <div class="skill">
+      <img src="html_finalprojimages/python.png" alt="Python Icon"/>
+      <h6>Python</h6>
+      <p>1 year experience</p>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div style="clear:both;"></div>
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Chatbot</h3>
+        <ul>
+          <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+        </ul>
+      </div>
+      <!-- Add more project cards here -->
+      <div class="project-card" id="projects">
+        <h3>Commerical site</h3>
+        <ul>
+          <li> Built a commerical site for local business located in town.</li>
+        </ul>
+        <div class="project-card" id="projects">
+          <h3>E-market</h3>
+          <ul>
+            <li> Built a e-market platform to support second hand goods purchase.</li>
+          </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Jane is a very quick learner and quickly grasps key concepts of Web development. She got a great attitude & she is an excellent team player. She has a curious mind and asks the right questions. She takes initiative within a team and has potential to lead the team.
+        <span>&#8221;</span>
+      </div>
+      <!-- Add more recommendations here -->
+      
+      
+        <div style="clear:both;"></div>
+        <div class="all_recommendations" id="all_recommendations">
+          <div class="recommendation">
+         
+            <span>&#8220;</span>
+           He is very honest person,made everthing very clear upfront and did the job really weell..
+            <span>&#8221;</span>
+          </div>
+
+
+          <div style="clear:both;"></div>
+          <div class="all_recommendations" id="all_recommendations">
+            <div class="recommendation">
+           
+              <span>&#8220;</span>
+             Best decision ever made by working with this col guy .
+              <span>&#8221;</span>
+            </div>
+    </div>
+  </section>
+
+  <!-- Recommendation Form -->
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br/>
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <div class="iconbutton">
+    <a href="#home">
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+    </a>
+  </div>
+
+  <div class="popup" id="popup" class="flex_center">
+    <img src="html_finalprojimages/checkmark--outline.svg" alt="Checkmark Icon"/>
+    <h3><!-- Add appropriate text here--></h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
+</body>
+</html>
